@@ -3,6 +3,7 @@
 To Implement Transfer Learning for Horses_vs_humans dataset classification using InceptionV3 architecture.
 ## Problem Statement and Dataset
 ### https://laurencemoroney.com/datasets.html
+This uses InceptionV3 architecture, a pre-defined model with neurones and activation functions, to help categorise the supplied image as either a human or a horse using transfer learning. To prevent it, we adjusted the activation function to sigmoid instead of softmax, which is used for multi-class classification—in this case, the classification simply determines if the provided image is human or not. A single image may be viewed in several ways because to data augmentation, which gives the visuals movement and versatility.
 </br>
 </br>
 </br>
